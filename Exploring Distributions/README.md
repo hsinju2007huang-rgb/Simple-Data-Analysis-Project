@@ -1,0 +1,6 @@
+# Exploring_Distributions
+Investigation: Analysing distributions of exam scores
+
+Summary: I used the tool numpy to generate the mean and standard deviation of the exam scores, and from the information, I generated a normal distribution graph. I have also experimented with less blockier curves using different bin settings to get a better visualisation of the curve. I have also checked to see if the total sum of social media hours, gaming hours and online classes hours equate to the total screen time hours.
+
+Takeaways: The normal distribution graph does not look like the usual theoretical normal distribution graph I usually see, which shows that real life data is not actually always perfect due to sampling variability, visualization binning effects, and potential outliers. Not only that, I've realised the sum does not equate to the total screentime hours, for 4996 datasets, while the other 4 remains true. It may be due to data quality issues, rounding differences, or missing contributing factors. This demonstrates the importance of validating dataset assumptions before drawing conclusions from analysis.

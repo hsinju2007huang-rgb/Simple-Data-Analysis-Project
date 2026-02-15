@@ -1,0 +1,8 @@
+# Exploring_Relationships
+Investigation: How various factors affect a student's exam scores. Data used [taken from Kaggle - Student Performance Dataset], data size: 5000.
+
+Summary: From the other file provided, I basically removed all the non-numerical columns first as well as the columns that are more complicated to analyse. My main tool source that I used to draw relationships is pandas, where I try to find the product correlation coefficiient of various factors with exam scores. In the end, I concluded productivity score and focus index are the strongest correlations with student's exam scores. Scatter diagrams are plotted at the end for reference.
+
+Takeaways: The higher the productivity score and focus index, the higher the exam scores will be. However, the scatter plots show considerable spread, suggesting the relationship is not strongly predictive and may be weak or influenced by other variables, therefore there may be some form of bias. [Correlation does not equate to causation] It is also uncertain whether the data is taken from the same area or all over the world, showing further bias.
+
+Other stuff to further note: From the info() command, there was no need for any cleaning of data as there are no null values found to affect the investigation. [Assuming all data are correct] From describe() command, it shows the average scores for all factors as well as the different percentiles.
